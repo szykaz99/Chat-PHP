@@ -1,0 +1,230 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial';
+    background-color: #ccc;
+}
+
+p{
+    display: inline;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a:link, a:visited, a:hover, a:active{
+    color: #000;
+    text-decoration: none;
+}
+
+#frame-id{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.header{
+    height: 39px;
+    width: 100%;
+    background-color: #606060;
+    border-bottom: solid 1px #8c8c8c;
+    position: fixed;
+    z-index: 10;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header_logo{
+    height: 39px;
+    width: 249px;
+    border-right: solid 1px #8c8c8c;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.header_logo_img{
+    height: 30px;
+    width: 180px;
+    padding-top: 3px;
+    border-bottom: 2px solid #fe0000;
+}
+
+.header-flex{
+    float: left;
+    height: 39px;
+    width: 100%;
+    -ms-flex: 1;
+    flex: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.header-user{
+    min-width: 209px;
+    height: 39px;
+    border-left: solid 1px #8c8c8c;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+.header-user-center{
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+}
+
+.mini-profile-avatar {
+    display: inline;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    font-family: icomoon!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    position: relative;
+}
+
+.mini-profile-avatar-photo {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    border: solid 1px #8c8c8c;
+}
+
+.mini-profile-name {
+    display: inline;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    font-family: icomoon!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    position: relative;
+    padding: 0px 10px 0px 10px;
+}
+
+.mini-profile-name-par {
+    color: #fff;
+    display: inline;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    border-bottom: solid 1px #8c8c8c;
+}
+
+.mini-profile-name-user {
+    font-size: 16.5px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    position: relative;
+    align-content: center;
+}
+
+.menu{
+    height: 100%;
+    width: 249px;
+    background-color: #606060;
+    border-right: solid 1px #8c8c8c;
+    display: block;
+    margin-top: 40px;
+    position: fixed;
+}
+
+.menu-list{
+    height: 49px;
+    width: 249px;
+    position: relative;
+    padding: 0;
+    margin: 0px;
+    display: -ms-flexbox;
+    display: inherit;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-bottom: solid 1px #8c8c8c;
+    background-color: transparent;
+}
+
+.menu-list-cont{
+    height: 49px;
+    width: 249px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 34px;
+    padding-left: 34px;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: left;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.menu-list-cont:hover{
+    background-color: #fe0000;
+}
+
+.m-l-i{
+    height: 20px;
+    width: 23px;
+}
+
+.menu-list-text{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.page{
+    height: calc(100% - 40px);
+    width: calc(100% - 250px);
+    background-color: #ccc;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 250px;
+    padding: 0px;
+}
+
+.frame-id{
+    width: 100%;
+    height: 100%;
+}
+
+.page-frame{
+    height: 100%;
+    width: 100%;
+}

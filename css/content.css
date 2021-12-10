@@ -1,0 +1,91 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial';
+    text-align: center;
+    align-items: center;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+p{
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.window{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    border: solid 1px #8c8c8c;
+    background-color: #606060;
+    width: 402px;
+    height: 300px;
+    margin-top: 15%;
+}
+
+.logo-top{
+    height: 50px;
+    width: 400px;
+    background-color: #606060;
+}
+
+.logo-top_img{
+    height: 40px;
+    width: 180px;
+    padding-top: 10px;
+    border-bottom: 2px solid #fe0000;
+}
+
+.form-place{
+    display: inline-block;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    height: 150px;
+    width: 388px;
+    background-color: #b3b3b3;
+    border: solid 2px #8c8c8c;
+    margin: 4px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-place-button{
+    margin-top: 10px;
+}
+
+.in-style{
+    font-size: 16px;
+    color: #000;
+    border-style: none;
+    border-bottom: 2px solid #000;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    background: #ccc;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background-image: none;
+    border-radius: 0px;
+    width: 150px;
+}

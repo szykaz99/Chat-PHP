@@ -9,7 +9,7 @@
 <!DOCTYPE HTML>
 <html lang="pl">
     <head>
-        <title>Panel Race4Car</title>
+        <title>Chat Panel</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
